@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const WorkoutSchema = new Schema(
     {
-        day: { type: Date, default: () => new Date() },
+        day: { type: Date, default: Date.now},
         exercises: [
             {
                 type: {
@@ -30,10 +30,8 @@ const WorkoutSchema = new Schema(
                 }, 
             },
         ],
-    },
-    {
-        toJSON: {
-            virtuals: true,
-        }, 
-    }
-);
+    });
+
+    const Workout = mongoose.model('Workout', WorkoutSchema);
+
+    module.exports = Workout;
