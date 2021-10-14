@@ -1,5 +1,5 @@
 const express = require("express");
-const logger = requrire("morgan");
+const logger = require("morgan");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 
