@@ -60,6 +60,12 @@ This app has been internally tested by the developer for errors and bugs, but th
 ---
 
 ## Screenshots:
+
+![WorkoutHome](Images/FitnessHome.png)
+![AddResistance](Images/ResistanceExercise.png)
+![AddCardio](Images/CardioExercise.png)
+![WorkoutDashboard](Images/WorkoutDashboard.png)
+
 ---
 
 ## Additional Info:
